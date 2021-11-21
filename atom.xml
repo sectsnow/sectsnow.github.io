@@ -6,7 +6,7 @@
   <link href="http://sectsnow.github.io/atom.xml" rel="self"/>
   
   <link href="http://sectsnow.github.io/"/>
-  <updated>2021-11-21T06:47:40.107Z</updated>
+  <updated>2021-11-21T09:19:47.126Z</updated>
   <id>http://sectsnow.github.io/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自定义侧边栏</title>
+    <link href="http://sectsnow.github.io/blogs/901ffb1c/"/>
+    <id>http://sectsnow.github.io/blogs/901ffb1c/</id>
+    <published>2021-11-21T09:16:25.000Z</published>
+    <updated>2021-11-21T09:19:47.126Z</updated>
+    
+    
+    <summary type="html">侧边栏支持自定义，可以添加自己喜欢的 widget。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/tags/Butterfly/"/>
+    
+    <category term="主题" scheme="http://sectsnow.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自定义代码配色</title>
+    <link href="http://sectsnow.github.io/blogs/ff241740/"/>
+    <id>http://sectsnow.github.io/blogs/ff241740/</id>
+    <published>2021-11-21T09:16:09.000Z</published>
+    <updated>2021-11-21T09:19:47.121Z</updated>
+    
+    
+    <summary type="html">使用自定义代码配色的实例教程。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/tags/Butterfly/"/>
+    
+    <category term="主题" scheme="http://sectsnow.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Butterfly主题标签插件(Tag Plugins)</title>
@@ -48,7 +102,7 @@
     <link href="http://sectsnow.github.io/blogs/ea723112/"/>
     <id>http://sectsnow.github.io/blogs/ea723112/</id>
     <published>2021-11-20T16:07:52.000Z</published>
-    <updated>2021-11-21T06:47:29.717Z</updated>
+    <updated>2021-11-21T09:22:36.493Z</updated>
     
     
     <summary type="html">Butterfly主题官方的一些基础美化教程</summary>
