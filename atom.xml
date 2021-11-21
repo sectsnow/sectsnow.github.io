@@ -6,7 +6,7 @@
   <link href="http://sectsnow.github.io/atom.xml" rel="self"/>
   
   <link href="http://sectsnow.github.io/"/>
-  <updated>2021-11-20T13:55:06.404Z</updated>
+  <updated>2021-11-21T06:36:51.290Z</updated>
   <id>http://sectsnow.github.io/</id>
   
   <author>
@@ -15,6 +15,87 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Butterfly主题标签插件(Tag Plugins)</title>
+    <link href="http://sectsnow.github.io/blogs/629bedba/"/>
+    <id>http://sectsnow.github.io/blogs/629bedba/</id>
+    <published>2021-11-21T06:32:32.000Z</published>
+    <updated>2021-11-21T06:36:51.290Z</updated>
+    
+    
+    <summary type="html">Butterfly主题标签插件的使用</summary>
+    
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/tags/Butterfly/"/>
+    
+    <category term="主题" scheme="http://sectsnow.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Butterfly主题基础美化配置</title>
+    <link href="http://sectsnow.github.io/blogs/ea723112/"/>
+    <id>http://sectsnow.github.io/blogs/ea723112/</id>
+    <published>2021-11-20T16:07:52.000Z</published>
+    <updated>2021-11-21T06:39:57.835Z</updated>
+    
+    
+    <summary type="html">Butterfly主题官方的一些基础美化教程</summary>
+    
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/tags/Butterfly/"/>
+    
+    <category term="主题" scheme="http://sectsnow.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Butterfly主题安装及页面配置</title>
+    <link href="http://sectsnow.github.io/blogs/62995734/"/>
+    <id>http://sectsnow.github.io/blogs/62995734/</id>
+    <published>2021-11-20T14:24:40.000Z</published>
+    <updated>2021-11-21T06:39:23.563Z</updated>
+    
+    
+    <summary type="html">Hexo安装Butterfly主题并配置相关页面</summary>
+    
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    
+    
+    <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="http://sectsnow.github.io/tags/Butterfly/"/>
+    
+    <category term="主题" scheme="http://sectsnow.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Spring</title>
