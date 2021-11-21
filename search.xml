@@ -216,9 +216,9 @@
     
     
     <entry>
-        <title>归档</title>
-        <link href="/archives/index.html"/>
-        <url>/archives/index.html</url>
+        <title>分类</title>
+        <link href="/categories/index.html"/>
+        <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
@@ -227,9 +227,9 @@
     
     
     <entry>
-        <title>分类</title>
-        <link href="/categories/index.html"/>
-        <url>/categories/index.html</url>
+        <title>归档</title>
+        <link href="/archives/index.html"/>
+        <url>/archives/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
@@ -271,22 +271,22 @@
     
     
     <entry>
-        <title>留言板</title>
-        <link href="/messageboard/index.html"/>
-        <url>/messageboard/index.html</url>
+        <title>标签</title>
+        <link href="/tags/index.html"/>
+        <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="有什么想说的？"><a href="#有什么想说的？" class="headerlink" title=" 有什么想说的？ "></a><div align="center"> 有什么想说的？ </div></h2><h2 id="有什么想问的？"><a href="#有什么想问的？" class="headerlink" title=" 有什么想问的？ "></a><div align="center"> 有什么想问的？ </div></h2><h2 id="有什么想吐槽的？"><a href="#有什么想吐槽的？" class="headerlink" title=" 有什么想吐槽的？ "></a><div align="center"> 有什么想吐槽的？ </div></h2><h2 id="可以在下面留言…"><a href="#可以在下面留言…" class="headerlink" title=" 可以在下面留言… "></a><div align="center"> 可以在下面留言… </div></h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
     
     
     <entry>
-        <title>标签</title>
-        <link href="/tags/index.html"/>
-        <url>/tags/index.html</url>
+        <title>留言板</title>
+        <link href="/messageboard/index.html"/>
+        <url>/messageboard/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="有什么想说的？"><a href="#有什么想说的？" class="headerlink" title=" 有什么想说的？ "></a><div align="center"> 有什么想说的？ </div></h2><h2 id="有什么想问的？"><a href="#有什么想问的？" class="headerlink" title=" 有什么想问的？ "></a><div align="center"> 有什么想问的？ </div></h2><h2 id="有什么想吐槽的？"><a href="#有什么想吐槽的？" class="headerlink" title=" 有什么想吐槽的？ "></a><div align="center"> 有什么想吐槽的？ </div></h2><h2 id="可以在下面留言…"><a href="#可以在下面留言…" class="headerlink" title=" 可以在下面留言… "></a><div align="center"> 可以在下面留言… </div></h2>]]></content>
       
     </entry>
     
