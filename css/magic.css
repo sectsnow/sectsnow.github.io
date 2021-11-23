@@ -156,18 +156,18 @@ h6::before {
 
 /* 顶部导航栏 */
 #nav a {
-    color: #e5bead;
+    color: #6dc8db;
 }
 
 /*页脚a标签字体颜色*/
 #footer-wrap a {
-    color: #e5bead;
+    color: #3995a8;
 }
 
 /*页脚自定义字段字体颜色*/
 /* 也就是配置文件里的footer_custom_text */
 .footer_custom_text {
-    color: #e5bead;
+    color: #3995a8;
 }
 
 /* 滚动条 */
