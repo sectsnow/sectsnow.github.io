@@ -4,6 +4,35 @@
   
     
     <entry>
+        <title>Windows Terminal 主题美化</title>
+        <link href="/blogs/7ea25825/"/>
+        <url>/blogs/7ea25825/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="安装-Windows-Terminal"><a href="#安装-Windows-Terminal" class="headerlink" title="安装 Windows Terminal"></a>安装 Windows Terminal</h1><p>如果你是 Windows 10 系统，可以打开系统自带的 <strong>Microsoft Store</strong>，搜索 <code>Windows Terminal</code> 直接安装就可以了。</p><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124142643005.png" alt="image-20211124142643005"></p><h1 id="安装PowerShell"><a href="#安装PowerShell" class="headerlink" title="安装PowerShell"></a>安装PowerShell</h1><p><a href="https://docs.microsoft.com/en-us/powershell/">PowerShell软件介绍</a></p><p><a href="https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows">PowerShell软件下载</a></p><p>PowerShell安装步骤（略）</p><h1 id="安装Nerd-Fonts"><a href="#安装Nerd-Fonts" class="headerlink" title="安装Nerd Fonts"></a>安装Nerd Fonts</h1><p><a href="https://www.nerdfonts.com/">Nerd Fonts字体介绍</a></p><p>下载一款字体（推荐<a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip">JetBrainsMono Nerd Font</a>）</p><h2 id="Nerd-Font安装"><a href="#Nerd-Font安装" class="headerlink" title="Nerd Font安装"></a>Nerd Font安装</h2><div class="note red icon flat"><i class="note-icon fas fa-fan"></i><p>注意：一定要安装一款字体，否则主题安装后符号或字体会乱码</p></div><ol><li><p>解压JetBrainsMono.zip，</p></li><li><p>文件夹下的字体全部选中，点击右键</p></li><li><p>点击菜单上的安装</p><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/20211124152549.png" alt="20211124152549.png"></p></li></ol><h1 id="Oh-My-Posh、Posh-Git安装"><a href="#Oh-My-Posh、Posh-Git安装" class="headerlink" title="Oh-My-Posh、Posh-Git安装"></a>Oh-My-Posh、Posh-Git安装</h1><p>在powershell中输入以下命令，安装oh-my-posh、Posh-Git</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Install-Module</span> <span class="built_in">oh</span><span class="literal">-my</span><span class="literal">-posh</span> <span class="literal">-Scope</span> CurrentUser</span><br><span class="line"></span><br><span class="line"><span class="built_in">Install-Module</span> posh<span class="literal">-git</span> <span class="literal">-Scope</span> CurrentUser</span><br></pre></td></tr></tbody></table></figure><h1 id="PowerShell设置主题"><a href="#PowerShell设置主题" class="headerlink" title="PowerShell设置主题"></a>PowerShell设置主题</h1><ul><li><p>在powershell中输入以下命令</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">notepad <span class="variable">$PROFILE</span></span><br></pre></td></tr></tbody></table></figure></li><li><p>在打开的txt文本中，输入以下命令，然后保存。</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Import-Module oh-my-posh</span><br><span class="line">Import-Module posh-git</span><br><span class="line">Set-PoshPrompt -Theme paradox</span><br></pre></td></tr></tbody></table></figure></li></ul><h1 id="使用-ColorTool-自定义-PowerShell-文字颜色"><a href="#使用-ColorTool-自定义-PowerShell-文字颜色" class="headerlink" title="使用 ColorTool 自定义 PowerShell 文字颜色"></a>使用 <code>ColorTool</code> 自定义 PowerShell 文字颜色</h1><p><code>ColorTool</code> 是微软出品的更改 <code>PowerShell</code> 文字颜色的工具，使用也非常简单。</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装微软官方颜色工具</span></span><br><span class="line">&gt; scoop install colortool</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看内置的配色方案，共有 8 种</span></span><br><span class="line">&gt; colortool -<span class="literal">-schemes</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 设置主题，后面是配色方案名称。</span></span><br><span class="line">&gt; colortool OneHalfDark.itermcolors</span><br></pre></td></tr></tbody></table></figure><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124151832516.png" alt="image-20211124151832516"></p><h1 id="windows-terminal中管理powershell"><a href="#windows-terminal中管理powershell" class="headerlink" title="windows terminal中管理powershell"></a>windows terminal中管理powershell</h1><ul><li><p>打开windows terminal，打开设置</p><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124145408681.png" alt="image-20211124145408681"></p></li><li><p>设置启动默认配置文件，选择刚安装的powershell</p><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124145811626.png" alt="image-20211124145811626"></p></li><li><p>设置powershell启动时，不输出日志命令行最后面添加 <code>-nologo</code></p><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124145929285.png" alt="image-20211124145929285"></p></li><li><p>设置powershell的字体，选择刚装过的JetBrainsMono字体</p><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124150113279.png" alt="image-20211124150113279"></p></li><li><p>最后保存，在windows terminal中查看美化后的powershell吧</p></li></ul><h1 id="查看Oh-My-Posh主题"><a href="#查看Oh-My-Posh主题" class="headerlink" title="查看Oh-My-Posh主题"></a>查看Oh-My-Posh主题</h1><p>在powershell中输入以下命令：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Get-PoshThemes</span></span><br></pre></td></tr></tbody></table></figure><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124150513892.png" alt="image-20211124150513892"></p><h1 id="PowerShell修改主题"><a href="#PowerShell修改主题" class="headerlink" title="PowerShell修改主题"></a>PowerShell修改主题</h1><p>输入<code>notepad $PROFILE</code></p><p><img src="https://gitee.com/sectsnow/figure_bed/raw/master/Typora/image-20211124151459017.png" alt="image-20211124151459017"></p><h1 id="PowerShell功能增强"><a href="#PowerShell功能增强" class="headerlink" title="PowerShell功能增强"></a><code>PowerShell</code>功能增强</h1><h2 id="增强-PowerShell-的-ls-功能"><a href="#增强-PowerShell-的-ls-功能" class="headerlink" title="增强 PowerShell 的 ls 功能"></a>增强 <code>PowerShell</code> 的 <code>ls</code> 功能</h2><p><code>dircolors</code> 是 Linux 下的命令，可以设置 <code>ls</code> 指令在显示目录或文件时的色彩，同样的，如果也想让 <code>PowerShell</code> 显示彩色目录，可用插件 <code>DirColors</code> 实现。</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装 DirColors</span></span><br><span class="line">&gt; <span class="built_in">Install-Module</span> DirColors</span><br><span class="line"><span class="comment"># 打开 PowerShell 配置</span></span><br><span class="line">&gt; notepad <span class="variable">$PROFILE</span></span><br></pre></td></tr></tbody></table></figure><p>在配置文件末尾添加一行，重启 PowerShell 就可以看到彩色目录了。</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Import-Module</span> DirColors</span><br></pre></td></tr></tbody></table></figure><h2 id="补全功能"><a href="#补全功能" class="headerlink" title="补全功能"></a>补全功能</h2><ul><li>根据历史记录补全，Tab 补全，菜单补全 &amp; Intellisense等等</li></ul><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 打开 PowerShell 配置</span></span><br><span class="line">&gt; notepad <span class="variable">$PROFILE</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在配置文件末尾添加</span></span><br><span class="line"><span class="built_in">Set-PSReadLineOption</span> <span class="literal">-PredictionSource</span> <span class="built_in">History</span> <span class="comment"># 设置预测文本来源为历史记录</span></span><br><span class="line"> </span><br><span class="line"><span class="built_in">Set-PSReadlineKeyHandler</span> <span class="literal">-Key</span> Tab <span class="literal">-Function</span> Complete <span class="comment"># 设置 Tab 键补全</span></span><br><span class="line"><span class="built_in">Set-PSReadLineKeyHandler</span> <span class="literal">-Key</span> <span class="string">"Ctrl+d"</span> <span class="literal">-Function</span> MenuComplete <span class="comment"># 设置 Ctrl+d 为菜单补全和 Intellisense</span></span><br><span class="line"><span class="built_in">Set-PSReadLineKeyHandler</span> <span class="literal">-Key</span> <span class="string">"Ctrl+z"</span> <span class="literal">-Function</span> Undo <span class="comment"># 设置 Ctrl+z 为撤销</span></span><br></pre></td></tr></tbody></table></figure><blockquote><p>其他插件也可以用同样的方法安装，开始探索吧 ~</p></blockquote>]]></content>
+      
+      
+        <categories>
+          
+            <category> Windows </category>
+          
+        </categories>
+      
+      
+        <tags>
+            
+            <tag> 美化 </tag>
+            
+            <tag> Windows </tag>
+            
+            <tag> 终端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
         <title>Butterfly主题魔改美化配置</title>
         <link href="/blogs/e1f72ee4/"/>
         <url>/blogs/e1f72ee4/</url>
@@ -26,9 +55,9 @@
             
             <tag> Butterfly </tag>
             
-            <tag> 主题 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 美化 </tag>
             
         </tags>
       
@@ -59,9 +88,9 @@
             
             <tag> Butterfly </tag>
             
-            <tag> 主题 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 美化 </tag>
             
         </tags>
       
@@ -92,9 +121,9 @@
             
             <tag> Butterfly </tag>
             
-            <tag> 主题 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 美化 </tag>
             
         </tags>
       
@@ -125,9 +154,9 @@
             
             <tag> Butterfly </tag>
             
-            <tag> 主题 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 美化 </tag>
             
         </tags>
       
@@ -158,9 +187,9 @@
             
             <tag> Butterfly </tag>
             
-            <tag> 主题 </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> 美化 </tag>
             
         </tags>
       
