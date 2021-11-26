@@ -201,33 +201,11 @@
     
     
     <entry>
-        <title></title>
-        <link href="/manifest.json"/>
-        <url>/manifest.json</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>{"name":"string","short_name":"Junzhou","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/pwaicons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/pwaicons/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
         <title>归档</title>
         <link href="/archives/index.html"/>
         <url>/archives/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-        <title></title>
-        <link href="/css/magic.css"/>
-        <url>/css/magic.css</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 文章页H1-H6图标样式效果 */@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}h1::before,h2::before,h3::before,h4::before,h5::before,h6::before {    -webkit-animation: ccc 1.6s linear infinite;    animation: ccc 1.6s linear infinite;}#content-inner.layout h1::before {    color: #ef50a8;    margin-left: -1.55rem;    font-size: 1.3rem;    margin-top: -0.23rem;}#content-inner.layout h2::before {    color: #fb7061;    margin-left: -1.35rem;    font-size: 1.1rem;    margin-top: -0.12rem;}#content-inner.layout h3::before {    color: #ffbf00;    margin-left: -1.22rem;    font-size: 0.95rem;    margin-top: -0.09rem;}#content-inner.layout h4::before {    color: #a9e000;    margin-left: -1.05rem;    font-size: 0.8rem;    margin-top: -0.09rem;}#content-inner.layout h5::before {    color: #57c850;    margin-left: -0.9rem;    font-size: 0.7rem;    margin-top: 0.0rem;}#content-inner.layout h6::before {    color: #5ec1e0;    margin-left: -0.9rem;    font-size: 0.66rem;    margin-top: 0.0rem;}#content-inner.layout h1:hover::before,#content-inner.layout h2:hover::before,#content-inner.layout h3:hover::before,#content-inner.layout h4:hover::before,#content-inner.layout h5:hover::before,#content-inner.layout h6:hover::before {    color: #49b1f5;    -webkit-animation: ccc 3.2s linear infinite;    animation: ccc 3.2s linear infinite;}/* 页面设置icon转动速度调整 */#rightside_config i.fas.fa-cog.fa-spin {    animation: fa-spin 5s linear infinite;}/* 页脚透明 */#footer {    background: transparent !important;}/* 自定义字体 */@font-face {    font-family: 'sleek';    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');}/* 博主昵称颜色 *//* .author-info__name {    color: #49b1f5;} *//* 评论框  */.vwrap {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 30px 0px;}/* 提交按钮 */#vcomment button {    padding: 0.3rem 0.8rem;    border-color: #fff;    background-color: #e58a8a;    color: #fff;    font-size: 0.7rem;    -webkit-transition: all 0.3s;    -moz-transition: all 0.3s;    -o-transition: all 0.3s;    -ms-transition: all 0.3s;    transition: all 0.3s;}/* 评论区代码块 */.v[data-class=v] code {    color: #c7254e;    background-color: #F9F2F4;}/* 设置评论框 */.vcard {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 0px 0px;}/* 取消回复聊天框 */.vquote .vcard {    box-shadow: 2px 2px 5px transparent;    background: rgba(255, 255, 255, 0.0);    padding: 0px;}/* 顶部导航栏 */#nav a {    color: #6dc8db;}/*页脚a标签字体颜色*/#footer-wrap a {    color: #3995a8;}/*页脚自定义字段字体颜色*//* 也就是配置文件里的footer_custom_text */.footer_custom_text {    color: #3995a8;}/* 滚动条 */::-webkit-scrollbar {    width: 10px;    height: 10px;}::-webkit-scrollbar-thumb {    background-color: #49b1f5;    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);    border-radius: 2em;}::-webkit-scrollbar-corner {    background-color: transparent;}::-moz-selection {    color: #fff;    background-color: #49b1f5;}/* 阿里云svg图标使用 */svg.icon {    width: 1em;    height: 1em;    /* width和height定义图标的默认宽度和高度*/    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;}/* 背景宇宙星光  */#universe {    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    z-index: -1;}]]></content>
       
     </entry>
     
@@ -245,11 +223,22 @@
     
     
     <entry>
-        <title>友情链接</title>
-        <link href="/link/index.html"/>
-        <url>/link/index.html</url>
+        <title></title>
+        <link href="/manifest.json"/>
+        <url>/manifest.json</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>{"name":"string","short_name":"Junzhou","theme_color":"#49b1f5","background_color":"#49b1f5","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"images/pwaicons/36.png","sizes":"36x36","type":"image/png"},{"src":"images/pwaicons/48.png","sizes":"48x48","type":"image/png"},{"src":"images/pwaicons/72.png","sizes":"72x72","type":"image/png"},{"src":"images/pwaicons/96.png","sizes":"96x96","type":"image/png"},{"src":"images/pwaicons/144.png","sizes":"144x144","type":"image/png"},{"src":"images/pwaicons/192.png","sizes":"192x192","type":"image/png"},{"src":"images/pwaicons/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+        <title></title>
+        <link href="/css/magic.css"/>
+        <url>/css/magic.css</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 文章页H1-H6图标样式效果 */@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}h1::before,h2::before,h3::before,h4::before,h5::before,h6::before {    -webkit-animation: ccc 1.6s linear infinite;    animation: ccc 1.6s linear infinite;}#content-inner.layout h1::before {    color: #ef50a8;    margin-left: -1.55rem;    font-size: 1.3rem;    margin-top: -0.23rem;}#content-inner.layout h2::before {    color: #fb7061;    margin-left: -1.35rem;    font-size: 1.1rem;    margin-top: -0.12rem;}#content-inner.layout h3::before {    color: #ffbf00;    margin-left: -1.22rem;    font-size: 0.95rem;    margin-top: -0.09rem;}#content-inner.layout h4::before {    color: #a9e000;    margin-left: -1.05rem;    font-size: 0.8rem;    margin-top: -0.09rem;}#content-inner.layout h5::before {    color: #57c850;    margin-left: -0.9rem;    font-size: 0.7rem;    margin-top: 0.0rem;}#content-inner.layout h6::before {    color: #5ec1e0;    margin-left: -0.9rem;    font-size: 0.66rem;    margin-top: 0.0rem;}#content-inner.layout h1:hover::before,#content-inner.layout h2:hover::before,#content-inner.layout h3:hover::before,#content-inner.layout h4:hover::before,#content-inner.layout h5:hover::before,#content-inner.layout h6:hover::before {    color: #49b1f5;    -webkit-animation: ccc 3.2s linear infinite;    animation: ccc 3.2s linear infinite;}/* 页面设置icon转动速度调整 */#rightside_config i.fas.fa-cog.fa-spin {    animation: fa-spin 5s linear infinite;}/* 页脚透明 */#footer {    background: transparent !important;}/* 自定义字体 */@font-face {    font-family: 'sleek';    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');}/* 博主昵称颜色 *//* .author-info__name {    color: #49b1f5;} *//* 评论框  */.vwrap {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 30px 0px;}/* 提交按钮 */#vcomment button {    padding: 0.3rem 0.8rem;    border-color: #fff;    background-color: #e58a8a;    color: #fff;    font-size: 0.7rem;    -webkit-transition: all 0.3s;    -moz-transition: all 0.3s;    -o-transition: all 0.3s;    -ms-transition: all 0.3s;    transition: all 0.3s;}/* 评论区代码块 */.v[data-class=v] code {    color: #c7254e;    background-color: #F9F2F4;}/* 设置评论框 */.vcard {    box-shadow: 2px 2px 5px #bbb;    background: rgba(255, 255, 255, 0.3);    border-radius: 8px;    padding: 30px;    margin: 30px 0px 0px 0px;}/* 取消回复聊天框 */.vquote .vcard {    box-shadow: 2px 2px 5px transparent;    background: rgba(255, 255, 255, 0.0);    padding: 0px;}/* 顶部导航栏 */#nav a {    color: #6dc8db;}/*页脚a标签字体颜色*/#footer-wrap a {    color: #3995a8;}/*页脚自定义字段字体颜色*//* 也就是配置文件里的footer_custom_text */.footer_custom_text {    color: #3995a8;}/* 滚动条 */::-webkit-scrollbar {    width: 10px;    height: 10px;}::-webkit-scrollbar-thumb {    background-color: #49b1f5;    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);    border-radius: 2em;}::-webkit-scrollbar-corner {    background-color: transparent;}::-moz-selection {    color: #fff;    background-color: #49b1f5;}/* 阿里云svg图标使用 */svg.icon {    width: 1em;    height: 1em;    /* width和height定义图标的默认宽度和高度*/    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;}/* 背景宇宙星光  */#universe {    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    z-index: -1;}]]></content>
       
     </entry>
     
@@ -261,6 +250,17 @@
         <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s="c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function" y(){this.reset="function(){this.giant=m(3),this.comet=!this.giant&amp;&amp;!o&amp;&amp;m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&amp;&amp;(this.fadingIn=!(this.opacity">this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&amp;&amp;(this.fadingOut=!(this.opacity&lt;0),this.opacity-=this.do/2,(this.x&gt;n||this.y&lt;0)&amp;&amp;(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t&lt;30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&amp;&amp;this.reset(),(this.x&gt;n-n/4||this.y&lt;0)&amp;&amp;(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1&lt;10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t</t;i++){var>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+        <title>友情链接</title>
+        <link href="/link/index.html"/>
+        <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
