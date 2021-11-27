@@ -96,10 +96,47 @@ h6::before {
     background: transparent !important;
 }
 
-/* 自定义字体 */
+
 @font-face {
-    font-family: 'sleek';
-    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+    /* 字体名自定义即可 */
+    font-family: 'KuaiLe';
+    /* 字体文件路径 */
+    src: url('/fonts/KuaiLe.ttf'); 
+    font-display: swap;
+}
+h1#site-title {
+    font-family: 'KuaiLe',
+    sans-serif;
+}
+span#subtitle{
+    font-family: 'KuaiLe',
+    sans-serif;
+}
+a#site-name{
+    font-family: 'KuaiLe',
+    sans-serif;
+}
+#aside-content .author-info__name {
+    font-family: 'KuaiLe',
+        sans-serif;
+}
+#aside-content .author-info__description {
+    font-family: 'KuaiLe',
+    sans-serif;
+}
+
+
+@font-face {
+    /* 字体名自定义即可 */
+    font-family: 'JetBrains';
+    /* 字体文件路径 */
+    src: url('/fonts/JetBrains.ttf');
+    font-display: swap;
+}
+
+code{
+    font-family: 'JetBrains',
+    monospace;
 }
 
 /* 博主昵称颜色 */
@@ -171,15 +208,26 @@ h6::before {
 }
 
 /* 滚动条 */
-
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(73, 177, 245, 0.2);
+    border-radius: 2em;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #49b1f5;
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(255, 255, 255, 0.4) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.4) 50%,
+            rgba(255, 255, 255, 0.4) 75%,
+            transparent 75%,
+            transparent);
     border-radius: 2em;
 }
 
@@ -190,6 +238,18 @@ h6::before {
 ::-moz-selection {
     color: #fff;
     background-color: #49b1f5;
+}
+
+/* 鼠标样式 */
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
 }
 
 /* 阿里云svg图标使用 */
