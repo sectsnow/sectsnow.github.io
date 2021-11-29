@@ -3526,22 +3526,22 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://gitee.com/sectsnow/figure_bed/raw/master/Typora/cover_1.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290917311.png');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://gitee.com/sectsnow/figure_bed/raw/master/Typora/cover_2.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290918068.png');
 }
 li.categoryBar-list-item:nth-child(3) {
-  background: url('https://gitee.com/sectsnow/figure_bed/raw/master/Typora/cover_3.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290921311.png');
 }
 li.categoryBar-list-item:nth-child(4) {
-  background: url('https://gitee.com/sectsnow/figure_bed/raw/master/Typora/cover_4.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290922740.png');
 }
 li.categoryBar-list-item:nth-child(5) {
-  background: url('https://gitee.com/sectsnow/figure_bed/raw/master/Typora/cover_5.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290922196.png');
 }
 li.categoryBar-list-item:nth-child(6) {
-  background: url('https://gitee.com/sectsnow/figure_bed/raw/master/Typora/cover_6.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290923088.png');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
   content: !important;
