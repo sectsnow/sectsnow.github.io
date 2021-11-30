@@ -260,7 +260,7 @@
         <link href="/link/index.html"/>
         <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="issues-api sites" api="https://api.github.com/repos/sectsnow/friend_link/issues?sort=updated&amp;state=open&amp;page=1&amp;per_page=100&amp;labels=active"></div>]]></content>
       
     </entry>
     
