@@ -3575,6 +3575,9 @@ li.categoryBar-list-item:nth-child(1)>span::after {
   content: 'Hexo相关美化' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
+  content: 'Java编程学习总结' !important;
+}
+li.categoryBar-list-item:nth-child(3)>span::after {
   content: '玩转Win10' !important;
 }
 li.categoryBar-list-item {
