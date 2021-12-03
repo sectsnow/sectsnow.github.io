@@ -3572,7 +3572,10 @@ li.categoryBar-list-item:nth-child(6) {
   background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290923088.png');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: !important;
+  content: 'Hexo相关美化' !important;
+}
+li.categoryBar-list-item:nth-child(2)>span::after {
+  content: '玩转Win10' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
