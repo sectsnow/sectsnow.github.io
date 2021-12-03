@@ -96,49 +96,6 @@ h6::before {
     background: transparent !important;
 }
 
-
-@font-face {
-    /* 字体名自定义即可 */
-    font-family: 'KuaiLe';
-    /* 字体文件路径 */
-    src: url('/fonts/KuaiLe.ttf'); 
-    font-display: swap;
-}
-h1#site-title {
-    font-family: 'KuaiLe',
-    sans-serif;
-}
-span#subtitle{
-    font-family: 'KuaiLe',
-    sans-serif;
-}
-a#site-name{
-    font-family: 'KuaiLe',
-    sans-serif;
-}
-#aside-content .author-info__name {
-    font-family: 'KuaiLe',
-        sans-serif;
-}
-#aside-content .author-info__description {
-    font-family: 'KuaiLe',
-    sans-serif;
-}
-
-
-@font-face {
-    /* 字体名自定义即可 */
-    font-family: 'JetBrains';
-    /* 字体文件路径 */
-    src: url('/fonts/JetBrains.ttf');
-    font-display: swap;
-}
-
-code{
-    font-family: 'JetBrains',
-    monospace;
-}
-
 /* 博主昵称颜色 */
 /* .author-info__name {
     color: #49b1f5;
@@ -260,4 +217,59 @@ svg.icon {
     vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
+}
+
+@font-face {
+    /* 字体名自定义即可 */
+    font-family: 'YouYuan';
+    /* 字体文件路径 */
+    src: url('/fonts/YouYuan.ttf');
+    font-display: swap;
+}
+a#site-name {
+    font-family: 'YouYuan', sans-serif;
+}
+/* div.author-info__name {
+    font-family: 'YouYuan', sans-serif;
+} */
+#aside-content .author-info__name {
+    font-family: 'YouYuan', sans-serif;
+}
+/* div.author-info__description {
+    font-family: 'YouYuan', sans-serif;
+} */
+#aside-content .author-info__description {
+    font-family: 'YouYuan', sans-serif;
+}
+
+
+@font-face {
+    /* 字体名自定义即可 */
+    font-family: 'KuaiLe';
+    /* 字体文件路径 */
+    src: url('/fonts/KuaiLe.ttf');
+    font-display: swap;
+}
+h1#site-title {
+    font-family: 'KuaiLe', sans-serif;
+}
+#page-header #site-title{
+    font-size: 4em;
+}
+span#subtitle {
+    font-family: 'KuaiLe', sans-serif;
+}
+#page-header #site-subtitle{
+    font-size: 1.9em;
+}
+
+@font-face {
+    /* 字体名自定义即可 */
+    font-family: 'JetBrains';
+    /* 字体文件路径 */
+    src: url('/fonts/JetBrains.ttf');
+    font-display: swap;
+}
+code {
+    font-family: 'JetBrains', monospace;
 }
