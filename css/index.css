@@ -3554,22 +3554,22 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290917311.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290923088.png');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290918068.png');
-}
-li.categoryBar-list-item:nth-child(3) {
-  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290921311.png');
-}
-li.categoryBar-list-item:nth-child(4) {
-  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111291611789.png');
-}
-li.categoryBar-list-item:nth-child(5) {
   background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290922196.png');
 }
+li.categoryBar-list-item:nth-child(3) {
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290917311.png');
+}
+li.categoryBar-list-item:nth-child(4) {
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290918068.png');
+}
+li.categoryBar-list-item:nth-child(5) {
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290921311.png');
+}
 li.categoryBar-list-item:nth-child(6) {
-  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290923088.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111291611789.png');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
   content: 'Hexo相关美化' !important;
@@ -3579,6 +3579,9 @@ li.categoryBar-list-item:nth-child(2)>span::after {
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
   content: '玩转Win10' !important;
+}
+li.categoryBar-list-item:nth-child(4)>span::after {
+  content: '数据库使用指南' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
