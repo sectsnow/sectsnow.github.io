@@ -320,7 +320,7 @@
         <link href="/about/index.html"/>
         <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="tip bell"><p>该博主很神秘，还没有自我介绍……</p></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="tip bell faa-falling animated faa-slow"><p>该博主很神秘，还没有自我介绍…</p></div><div class="tip success faa-falling animated faa-slow"><p>没错，我就是没想好怎么写…</p></div>]]></content>
       
     </entry>
     
