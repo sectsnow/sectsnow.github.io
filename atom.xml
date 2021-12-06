@@ -6,7 +6,7 @@
   <link href="http://sectsnow.github.io/atom.xml" rel="self"/>
   
   <link href="http://sectsnow.github.io/"/>
-  <updated>2021-12-04T05:00:13.446Z</updated>
+  <updated>2021-12-06T09:18:10.016Z</updated>
   <id>http://sectsnow.github.io/</id>
   
   <author>
@@ -17,18 +17,64 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>MySql 的隔离级别</title>
+    <title>Redis工具 | Another Redis Desktop Manager</title>
+    <link href="http://sectsnow.github.io/blogs/ef3800f2/"/>
+    <id>http://sectsnow.github.io/blogs/ef3800f2/</id>
+    <published>2021-12-06T03:06:44.000Z</published>
+    <updated>2021-12-06T09:18:10.016Z</updated>
+    
+    
+    <summary type="html">一个更快、更好、更稳定的redis桌面管理工具，可以运行于Linux、Windows、Mac三大平台，并且当加载大数量的key不会crash</summary>
+    
+    
+    
+    <category term="实用工具" scheme="http://sectsnow.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Redis" scheme="http://sectsnow.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/Redis/"/>
+    
+    
+    <category term="Redis" scheme="http://sectsnow.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub | Git删除历史版本，保留当前状态</title>
+    <link href="http://sectsnow.github.io/blogs/ab1e5000/"/>
+    <id>http://sectsnow.github.io/blogs/ab1e5000/</id>
+    <published>2021-12-06T01:50:50.000Z</published>
+    <updated>2021-12-06T09:18:10.016Z</updated>
+    
+    
+    <summary type="html">GitHub版本库中是有历史记录的，想要删除这些记录，但是又不想删除仓库，重建来提交。那么就想办法删除历史记录。</summary>
+    
+    
+    
+    <category term="经验分享" scheme="http://sectsnow.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="GitHub" scheme="http://sectsnow.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/GitHub/"/>
+    
+    
+    <category term="Git" scheme="http://sectsnow.github.io/tags/Git/"/>
+    
+    <category term="GitHub" scheme="http://sectsnow.github.io/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySql | MySql的隔离级别</title>
     <link href="http://sectsnow.github.io/blogs/c95480c4/"/>
     <id>http://sectsnow.github.io/blogs/c95480c4/</id>
     <published>2021-12-03T06:42:02.000Z</published>
-    <updated>2021-12-04T05:00:13.446Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">抛开原理与底层的具体实现，能够清晰且明了的搞清楚各个专业术语的含义</summary>
     
     
     
-    <category term="数据库" scheme="http://sectsnow.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="学习笔记" scheme="http://sectsnow.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="MySql" scheme="http://sectsnow.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/MySql/"/>
     
     
     <category term="MySql" scheme="http://sectsnow.github.io/tags/MySql/"/>
@@ -36,19 +82,23 @@
   </entry>
   
   <entry>
-    <title>Hutool-小而全的Java工具类库</title>
+    <title>Java工具 | Hutool-小而全的Java工具类库</title>
     <link href="http://sectsnow.github.io/blogs/42d322ac/"/>
     <id>http://sectsnow.github.io/blogs/42d322ac/</id>
     <published>2021-12-03T05:54:44.000Z</published>
-    <updated>2021-12-04T05:00:13.446Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">Hutool是一个小而全的Java工具类库，通过静态方法封装，降低相关API的学习成本，提高工作效率，使Java拥有函数式语言般的优雅，让Java语言也可以“甜甜的”。</summary>
     
     
     
-    <category term="Java" scheme="http://sectsnow.github.io/categories/Java/"/>
+    <category term="代码编程" scheme="http://sectsnow.github.io/categories/%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B/"/>
     
+    <category term="Java工具" scheme="http://sectsnow.github.io/categories/%E4%BB%A3%E7%A0%81%E7%BC%96%E7%A8%8B/Java%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Java" scheme="http://sectsnow.github.io/tags/Java/"/>
     
     <category term="工具" scheme="http://sectsnow.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
@@ -57,43 +107,43 @@
   </entry>
   
   <entry>
-    <title>Windows Terminal 主题美化</title>
+    <title>Windows工具 | Windows Terminal主题美化</title>
     <link href="http://sectsnow.github.io/blogs/7ea25825/"/>
     <id>http://sectsnow.github.io/blogs/7ea25825/</id>
     <published>2021-11-24T06:08:08.000Z</published>
-    <updated>2021-12-04T05:00:13.446Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">目标是打造拥有和Linux &amp; mac一样体验的Shell</summary>
     
     
     
-    <category term="Windows" scheme="http://sectsnow.github.io/categories/Windows/"/>
+    <category term="随笔记录" scheme="http://sectsnow.github.io/categories/%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="终端" scheme="http://sectsnow.github.io/categories/%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/%E7%BB%88%E7%AB%AF/"/>
     
     
     <category term="美化" scheme="http://sectsnow.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="Windows" scheme="http://sectsnow.github.io/tags/Windows/"/>
     
     <category term="终端" scheme="http://sectsnow.github.io/tags/%E7%BB%88%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
-    <title>Butterfly主题魔改美化配置（未完结）</title>
+    <title>Hexo博客 | Butterfly主题魔改美化配置（未完结）</title>
     <link href="http://sectsnow.github.io/blogs/e1f72ee4/"/>
     <id>http://sectsnow.github.io/blogs/e1f72ee4/</id>
     <published>2021-11-21T12:17:41.000Z</published>
-    <updated>2021-12-04T05:00:13.446Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">自用的美化配置，方便自己查询</summary>
     
     
     
-    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    <category term="博客相关" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
     <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
@@ -102,25 +152,23 @@
     
     <category term="美化" scheme="http://sectsnow.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
   </entry>
   
   <entry>
-    <title>Butterfly主题进阶美化配置</title>
+    <title>Hexo博客 | Butterfly主题进阶美化配置</title>
     <link href="http://sectsnow.github.io/blogs/1a2f7100/"/>
     <id>http://sectsnow.github.io/blogs/1a2f7100/</id>
     <published>2021-11-21T10:29:08.000Z</published>
-    <updated>2021-12-04T05:00:13.446Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">Butterfly主题官方的一些美化教程</summary>
     
     
     
-    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    <category term="博客相关" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
     <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
@@ -129,25 +177,23 @@
     
     <category term="美化" scheme="http://sectsnow.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
   </entry>
   
   <entry>
-    <title>自定义侧边栏</title>
+    <title>Hexo博客 | 自定义侧边栏</title>
     <link href="http://sectsnow.github.io/blogs/901ffb1c/"/>
     <id>http://sectsnow.github.io/blogs/901ffb1c/</id>
     <published>2021-11-21T09:16:25.000Z</published>
-    <updated>2021-12-04T05:00:13.446Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">侧边栏支持自定义，可以添加自己喜欢的 widget。</summary>
     
     
     
-    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    <category term="博客相关" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
     <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
@@ -156,25 +202,23 @@
     
     <category term="美化" scheme="http://sectsnow.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
   </entry>
   
   <entry>
-    <title>Butterfly主题基础美化配置</title>
+    <title>Hexo博客 | Butterfly主题基础美化配置</title>
     <link href="http://sectsnow.github.io/blogs/ea723112/"/>
     <id>http://sectsnow.github.io/blogs/ea723112/</id>
     <published>2021-11-20T16:07:52.000Z</published>
-    <updated>2021-12-04T05:00:13.442Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">Butterfly主题官方的一些基础美化教程</summary>
     
     
     
-    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    <category term="博客相关" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
     <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
@@ -183,25 +227,23 @@
     
     <category term="美化" scheme="http://sectsnow.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
   </entry>
   
   <entry>
-    <title>Butterfly主题安装及页面配置</title>
+    <title>Hexo博客 | Butterfly主题安装及页面配置</title>
     <link href="http://sectsnow.github.io/blogs/62995734/"/>
     <id>http://sectsnow.github.io/blogs/62995734/</id>
     <published>2021-11-20T14:24:40.000Z</published>
-    <updated>2021-12-04T05:00:13.442Z</updated>
+    <updated>2021-12-06T09:18:10.016Z</updated>
     
     
     <summary type="html">Hexo安装Butterfly主题并配置相关页面</summary>
     
     
     
-    <category term="Hexo" scheme="http://sectsnow.github.io/categories/Hexo/"/>
+    <category term="博客相关" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Butterfly" scheme="http://sectsnow.github.io/categories/Hexo/Butterfly/"/>
+    <category term="Hexo" scheme="http://sectsnow.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/Hexo/"/>
     
     
     <category term="Hexo" scheme="http://sectsnow.github.io/tags/Hexo/"/>
@@ -209,8 +251,6 @@
     <category term="Butterfly" scheme="http://sectsnow.github.io/tags/Butterfly/"/>
     
     <category term="美化" scheme="http://sectsnow.github.io/tags/%E7%BE%8E%E5%8C%96/"/>
-    
-    <category term="教程" scheme="http://sectsnow.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   

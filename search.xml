@@ -4,7 +4,63 @@
   
     
     <entry>
-        <title>MySql 的隔离级别</title>
+        <title>Redis工具 | Another Redis Desktop Manager</title>
+        <link href="/blogs/ef3800f2/"/>
+        <url>/blogs/ef3800f2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="tip faa-bounce animated-hover"><p>日常开发过程中，项目常常都会使用Redis来做缓存或者Session服务器，为了更直观方便，开发者常常会使用一些可视化工具，如 Redis Desktop Manager、Redis Clent等，但界面UI做得不尽人意，作为当今时代，对软件的UI还是有所期待的，今天给大家分享一款，高颜值、功能强大的Redis客户端工具</p></div><h1 id="AnotherRedisDesktopManager"><a href="#AnotherRedisDesktopManager" class="headerlink" title="AnotherRedisDesktopManager"></a>AnotherRedisDesktopManager</h1><div class="tag link"><a class="link-card" title="Gitee开源地址" href="https://gitee.com/qishibo/AnotherRedisDesktopManager"><div class="left"><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061636533.png"></div><div class="right"><p class="text">Gitee开源地址</p><p class="url">https://gitee.com/qishibo/AnotherRedisDesktopManager</p></div></a></div><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061555914.png" style="zoom: 75%;"></p><h1 id="下载页面"><a href="#下载页面" class="headerlink" title="下载页面"></a>下载页面</h1><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061558327.png" alt=""></p><h1 id="相关使用UI"><a href="#相关使用UI" class="headerlink" title="相关使用UI"></a>相关使用UI</h1><ol><li><p>调整主题模式</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">预览    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061602968.png" alt=""></p></div></div></li><li><p>支持简体中文</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">预览    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061604486.png" alt=""></p></div></div></li><li><p>新建链接，支持SSH跳板机、SSL模式、哨兵模式、集群模式连接</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">预览    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061605794.png" alt=""></p></div></div></li><li><p>可以查看redis状态</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">预览    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061608313.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061622084.png" alt=""></p></div></div></li><li><p>新增key</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">预览    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061628090.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061629345.png" alt=""></p></div></div></li><li><p>修改（修改key名称、value、过期时间、数据类型）</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">预览    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061631337.png" alt=""></p></div></div></li><li><p>可以一键切换成命令行操作</p><div class="hide-block"><button type="button" class="hide-button button--animated" style="">预览    </button><div class="hide-content"><p><img src="https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061633009.png" alt=""></p></div></div></li></ol><div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>本文为转载内容，来自作者：<code>低调的干货君</code></p><p>访问原文地址：<a href="https://www.toutiao.com/i6888938003864453645">立即访问</a></p></div>]]></content>
+      
+      
+        <categories>
+          
+            <category> 实用工具 </category>
+          
+            <category> Redis </category>
+          
+        </categories>
+      
+      
+        <tags>
+            
+            <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+        <title>GitHub | Git删除历史版本，保留当前状态</title>
+        <link href="/blogs/ab1e5000/"/>
+        <url>/blogs/ab1e5000/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="tip faa-bounce animated-hover"><p>有时候，我们提交了某些文件，使用<code>git rm xxx</code>或在GitHub仓库手动删除后，其实版本库中是有历史记录的，想要删除这些记录，但是又不想删除仓库，重建来提交。那么就想办法删除历史记录了。<br>我们当然不能直接删除.git文件夹，这将导致git存储库出现不可预知的问题。<br>要删除所有提交历史记录，但将代码保持在当前状态，可以按照以下方式安全地执行此操作</p></div><ol><li><p>将远程仓库克隆到本地仓库并进入本地仓库</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> clone git@github.com:<span class="token punctuation">[</span>GithubName<span class="token punctuation">]</span>/<span class="token punctuation">[</span>Repositories<span class="token punctuation">]</span>.git<span class="token builtin class-name">cd</span> <span class="token punctuation">[</span>Repositories<span class="token punctuation">]</span>/</code></pre></li><li><p>创建并切换到<code>latest_branch</code>分支</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> checkout --orphan latest_branch</code></pre></li><li><p>添加所有文件</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> <span class="token function">add</span> -A</code></pre></li><li><p>提交更改</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> commit -am <span class="token string">"删除历史版本记录，初始化仓库"</span></code></pre></li><li><p>删除分支</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> branch -D main</code></pre></li><li><p>将当前分支重命名</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> branch -m main</code></pre></li><li><p>强制更新存储库</p><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">git</span> push -f origin master</code></pre></li></ol><p><em>解决方案来自：<a href="https://cloud.tencent.com/developer/ask/30403/answer/39134">如何删除GitHub中的所有提交历史记录？</a></em></p>]]></content>
+      
+      
+        <categories>
+          
+            <category> 经验分享 </category>
+          
+            <category> GitHub </category>
+          
+        </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+        <title>MySql | MySql的隔离级别</title>
         <link href="/blogs/c95480c4/"/>
         <url>/blogs/c95480c4/</url>
       
@@ -13,7 +69,9 @@
       
         <categories>
           
-            <category> 数据库 </category>
+            <category> 学习笔记 </category>
+          
+            <category> MySql </category>
           
         </categories>
       
@@ -29,7 +87,7 @@
     
     
     <entry>
-        <title>Hutool-小而全的Java工具类库</title>
+        <title>Java工具 | Hutool-小而全的Java工具类库</title>
         <link href="/blogs/42d322ac/"/>
         <url>/blogs/42d322ac/</url>
       
@@ -38,12 +96,16 @@
       
         <categories>
           
-            <category> Java </category>
+            <category> 代码编程 </category>
+          
+            <category> Java工具 </category>
           
         </categories>
       
       
         <tags>
+            
+            <tag> Java </tag>
             
             <tag> 工具 </tag>
             
@@ -56,7 +118,7 @@
     
     
     <entry>
-        <title>Windows Terminal 主题美化</title>
+        <title>Windows工具 | Windows Terminal主题美化</title>
         <link href="/blogs/7ea25825/"/>
         <url>/blogs/7ea25825/</url>
       
@@ -65,7 +127,9 @@
       
         <categories>
           
-            <category> Windows </category>
+            <category> 随笔记录 </category>
+          
+            <category> 终端 </category>
           
         </categories>
       
@@ -73,8 +137,6 @@
         <tags>
             
             <tag> 美化 </tag>
-            
-            <tag> Windows </tag>
             
             <tag> 终端 </tag>
             
@@ -85,7 +147,7 @@
     
     
     <entry>
-        <title>Butterfly主题魔改美化配置（未完结）</title>
+        <title>Hexo博客 | Butterfly主题魔改美化配置（未完结）</title>
         <link href="/blogs/e1f72ee4/"/>
         <url>/blogs/e1f72ee4/</url>
       
@@ -94,9 +156,9 @@
       
         <categories>
           
-            <category> Hexo </category>
+            <category> 博客相关 </category>
           
-            <category> Butterfly </category>
+            <category> Hexo </category>
           
         </categories>
       
@@ -109,8 +171,6 @@
             
             <tag> 美化 </tag>
             
-            <tag> 教程 </tag>
-            
         </tags>
       
     </entry>
@@ -118,7 +178,7 @@
     
     
     <entry>
-        <title>Butterfly主题进阶美化配置</title>
+        <title>Hexo博客 | Butterfly主题进阶美化配置</title>
         <link href="/blogs/1a2f7100/"/>
         <url>/blogs/1a2f7100/</url>
       
@@ -127,9 +187,9 @@
       
         <categories>
           
-            <category> Hexo </category>
+            <category> 博客相关 </category>
           
-            <category> Butterfly </category>
+            <category> Hexo </category>
           
         </categories>
       
@@ -142,8 +202,6 @@
             
             <tag> 美化 </tag>
             
-            <tag> 教程 </tag>
-            
         </tags>
       
     </entry>
@@ -151,7 +209,7 @@
     
     
     <entry>
-        <title>自定义侧边栏</title>
+        <title>Hexo博客 | 自定义侧边栏</title>
         <link href="/blogs/901ffb1c/"/>
         <url>/blogs/901ffb1c/</url>
       
@@ -160,9 +218,9 @@
       
         <categories>
           
-            <category> Hexo </category>
+            <category> 博客相关 </category>
           
-            <category> Butterfly </category>
+            <category> Hexo </category>
           
         </categories>
       
@@ -175,8 +233,6 @@
             
             <tag> 美化 </tag>
             
-            <tag> 教程 </tag>
-            
         </tags>
       
     </entry>
@@ -184,7 +240,7 @@
     
     
     <entry>
-        <title>Butterfly主题基础美化配置</title>
+        <title>Hexo博客 | Butterfly主题基础美化配置</title>
         <link href="/blogs/ea723112/"/>
         <url>/blogs/ea723112/</url>
       
@@ -193,9 +249,9 @@
       
         <categories>
           
-            <category> Hexo </category>
+            <category> 博客相关 </category>
           
-            <category> Butterfly </category>
+            <category> Hexo </category>
           
         </categories>
       
@@ -207,8 +263,6 @@
             <tag> Butterfly </tag>
             
             <tag> 美化 </tag>
-            
-            <tag> 教程 </tag>
             
         </tags>
       
@@ -217,7 +271,7 @@
     
     
     <entry>
-        <title>Butterfly主题安装及页面配置</title>
+        <title>Hexo博客 | Butterfly主题安装及页面配置</title>
         <link href="/blogs/62995734/"/>
         <url>/blogs/62995734/</url>
       
@@ -226,9 +280,9 @@
       
         <categories>
           
-            <category> Hexo </category>
+            <category> 博客相关 </category>
           
-            <category> Butterfly </category>
+            <category> Hexo </category>
           
         </categories>
       
@@ -240,8 +294,6 @@
             <tag> Butterfly </tag>
             
             <tag> 美化 </tag>
-            
-            <tag> 教程 </tag>
             
         </tags>
       

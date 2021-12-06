@@ -3563,7 +3563,7 @@ li.categoryBar-list-item:nth-child(3) {
   background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290917311.png');
 }
 li.categoryBar-list-item:nth-child(4) {
-  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290918068.png');
+  background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202112061712786.png');
 }
 li.categoryBar-list-item:nth-child(5) {
   background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111290921311.png');
@@ -3572,16 +3572,22 @@ li.categoryBar-list-item:nth-child(6) {
   background: url('https://cdn.jsdelivr.net/gh/sectsnow/images/img/202111291611789.png');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: 'Hexo相关美化' !important;
+  content: '编程学习中的记录' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: 'Java编程学习总结' !important;
+  content: '博客的相关配置与美化' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
-  content: '玩转Win10' !important;
+  content: '问题总结笔记归纳' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
-  content: '数据库使用指南' !important;
+  content: '实用工具的分享与记录' !important;
+}
+li.categoryBar-list-item:nth-child(5)>span::after {
+  content: '分享经验和想法' !important;
+}
+li.categoryBar-list-item:nth-child(6)>span::after {
+  content: '随便写写，记录当时的想法' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
@@ -3594,7 +3600,7 @@ li.categoryBar-list-item {
   }
 }
 .categoryBar-list {
-  max-height: 190px;
+  max-height: 570px;
   overflow: auto;
 }
 .categoryBar-list::-webkit-scrollbar {
@@ -3602,7 +3608,7 @@ li.categoryBar-list-item {
 }
 @media screen and (max-width: 650px) {
   .categoryBar-list {
-    max-height: 160px;
+    max-height: 480px;
   }
 }
 #post-comment .comment-head {
