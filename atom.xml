@@ -6,7 +6,7 @@
   <link href="http://sectsnow.github.io/atom.xml" rel="self"/>
   
   <link href="http://sectsnow.github.io/"/>
-  <updated>2021-12-21T01:21:28.057Z</updated>
+  <updated>2021-12-23T08:14:58.698Z</updated>
   <id>http://sectsnow.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>数据库工具 | Navicat Premium15安装及破解教程</title>
+    <link href="http://sectsnow.github.io/blogs/7356b678/"/>
+    <id>http://sectsnow.github.io/blogs/7356b678/</id>
+    <published>2021-12-23T07:13:25.000Z</published>
+    <updated>2021-12-23T08:14:58.698Z</updated>
+    
+    
+    <summary type="html">这篇文章主要介绍了Navicat Premium15安装及破解教程详解亲测有效,本文通过图文并茂的形式给大家介绍的非常详细，对大家的学习或工作具有一定的参考借鉴价值</summary>
+    
+    
+    
+    <category term="实用工具" scheme="http://sectsnow.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="MySql" scheme="http://sectsnow.github.io/tags/MySql/"/>
+    
+    <category term="数据库" scheme="http://sectsnow.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySql | 本地MySql数据库允许远程连接</title>
     <link href="http://sectsnow.github.io/blogs/72c7dfdd/"/>
     <id>http://sectsnow.github.io/blogs/72c7dfdd/</id>
     <published>2021-12-18T13:10:46.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">小组做项目的时候共用一个数据库不能远程连接，找了原因是用户没有授权（我的mysql数据库版本是5.7）</summary>
@@ -40,7 +61,7 @@
     <link href="http://sectsnow.github.io/blogs/971db359/"/>
     <id>http://sectsnow.github.io/blogs/971db359/</id>
     <published>2021-12-18T12:48:04.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
       
@@ -67,7 +88,7 @@
     <link href="http://sectsnow.github.io/blogs/c18e13a8/"/>
     <id>http://sectsnow.github.io/blogs/c18e13a8/</id>
     <published>2021-12-07T06:34:17.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">Java 泛型（generics）是 JDK 5 中引入的一个新特性, 泛型提供了编译时类型安全检测机制，该机制允许开发者在编译时检测到非法的类型。</summary>
@@ -86,7 +107,7 @@
     <link href="http://sectsnow.github.io/blogs/ef3800f2/"/>
     <id>http://sectsnow.github.io/blogs/ef3800f2/</id>
     <published>2021-12-06T03:06:44.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">一个更快、更好、更稳定的redis桌面管理工具，可以运行于Linux、Windows、Mac三大平台，并且当加载大数量的key不会crash</summary>
@@ -105,7 +126,7 @@
     <link href="http://sectsnow.github.io/blogs/ab1e5000/"/>
     <id>http://sectsnow.github.io/blogs/ab1e5000/</id>
     <published>2021-12-06T01:50:50.000Z</published>
-    <updated>2021-12-21T01:21:28.053Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">GitHub版本库中是有历史记录的，想要删除这些记录，但是又不想删除仓库，重建来提交。那么就想办法删除历史记录。</summary>
@@ -126,7 +147,7 @@
     <link href="http://sectsnow.github.io/blogs/c95480c4/"/>
     <id>http://sectsnow.github.io/blogs/c95480c4/</id>
     <published>2021-12-03T06:42:02.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">抛开原理与底层的具体实现，能够清晰且明了的搞清楚各个专业术语的含义</summary>
@@ -145,7 +166,7 @@
     <link href="http://sectsnow.github.io/blogs/42d322ac/"/>
     <id>http://sectsnow.github.io/blogs/42d322ac/</id>
     <published>2021-12-03T05:54:44.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">Hutool是一个小而全的Java工具类库，通过静态方法封装，降低相关API的学习成本，提高工作效率，使Java拥有函数式语言般的优雅，让Java语言也可以“甜甜的”。</summary>
@@ -168,7 +189,7 @@
     <link href="http://sectsnow.github.io/blogs/7ea25825/"/>
     <id>http://sectsnow.github.io/blogs/7ea25825/</id>
     <published>2021-11-24T06:08:08.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">目标是打造拥有和Linux &amp; mac一样体验的Shell</summary>
@@ -189,7 +210,7 @@
     <link href="http://sectsnow.github.io/blogs/e1f72ee4/"/>
     <id>http://sectsnow.github.io/blogs/e1f72ee4/</id>
     <published>2021-11-21T12:17:41.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">自用的美化配置，方便自己查询</summary>
@@ -212,7 +233,7 @@
     <link href="http://sectsnow.github.io/blogs/1a2f7100/"/>
     <id>http://sectsnow.github.io/blogs/1a2f7100/</id>
     <published>2021-11-21T10:29:08.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">Butterfly主题官方的一些美化教程</summary>
@@ -235,7 +256,7 @@
     <link href="http://sectsnow.github.io/blogs/901ffb1c/"/>
     <id>http://sectsnow.github.io/blogs/901ffb1c/</id>
     <published>2021-11-21T09:16:25.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">侧边栏支持自定义，可以添加自己喜欢的 widget。</summary>
@@ -258,7 +279,7 @@
     <link href="http://sectsnow.github.io/blogs/ea723112/"/>
     <id>http://sectsnow.github.io/blogs/ea723112/</id>
     <published>2021-11-20T16:07:52.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">Butterfly主题官方的一些基础美化教程</summary>
@@ -281,7 +302,7 @@
     <link href="http://sectsnow.github.io/blogs/62995734/"/>
     <id>http://sectsnow.github.io/blogs/62995734/</id>
     <published>2021-11-20T14:24:40.000Z</published>
-    <updated>2021-12-21T01:21:28.057Z</updated>
+    <updated>2021-12-23T08:14:58.698Z</updated>
     
     
     <summary type="html">Hexo安装Butterfly主题并配置相关页面</summary>
